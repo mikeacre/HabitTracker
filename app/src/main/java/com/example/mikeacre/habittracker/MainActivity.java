@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 HabitContract.HabitEntry.COLUMN_HABIT_TIME,
                 HabitContract.HabitEntry.COLUMN_HABIT_REQ};
 
-        String  whereColumns = HabitContract.HabitEntry._ID;
+        String  whereColumns = HabitContract.HabitEntry._ID + "=?";
 
         String[] whereValues = {""+habitid};
 

@@ -8,7 +8,6 @@ import android.provider.BaseColumns;
 
 public final class HabitContract {
 
-
         private HabitContract() {}
 
         public static final class HabitEntry implements BaseColumns {
@@ -21,8 +20,6 @@ public final class HabitContract {
 
             public static final int HABIT_REQ = 1;
             public static final int HABIT_NO_REQ = 0;
-
-
         }
 
 
